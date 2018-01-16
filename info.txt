@@ -1,0 +1,13 @@
+https://www.sciencedirect.com/science/article/pii/S0260877417301620
+https://link.springer.com/article/10.1007/s12161-017-1105-x
+
+
+https://stackoverflow.com/questions/45979638/image-preprocessing-for-egg-marking-recognition-with-tesseract
+
+extract images from video with ffmpeg -i Table1.mp4 -r 1/1 $filename%03d.jpeg
+
+
+How to use:
+1. cd tensorflow-for-poets-2
+2. python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=tf_files/eggs/bad/5.jpeg
+3> check https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
