@@ -11,3 +11,7 @@ How to use:
 1. cd tensorflow-for-poets-2
 2. python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=tf_files/eggs/bad/5.jpeg
 3> check https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
+
+
+while [ 1 ]; do    date=$(gdate +%s%N);   screencapture -x -R200,250,500,500 ~/Desktop/"screen_${date}.jpeg";   sleep 0.1; done
+while [ 1 ]; do    date=$(gdate +%s%N);   screencapture -x -R750,200,500,500 ~/Desktop/"screen_${date}.jpeg";   sleep 0.1; done
